@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
  int i,j,n,sum=0;
- //cout<<"enter the size of array"<<endl;
+ cout<<"enter the size of array"<<endl;
  cin >> n;
  int A[n],p=0,B[n];
 
@@ -13,10 +13,10 @@ int main()
    {
      cin >> A[i];
     }
-      /*for(i=0;i<n;i++)
+      for(i=0;i<n;i++)
         {
          cout<< A[i] << " ";
-        }*/  
+        }  
   cout<<endl;
    for(i=0;i<n;i++)
     {
